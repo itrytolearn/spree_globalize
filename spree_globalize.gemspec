@@ -24,12 +24,12 @@ Gem::Specification.new do |s|
   s.has_rdoc = false
 
   s.add_runtime_dependency 'friendly_id-globalize'
-  s.add_runtime_dependency 'globalize', '~> 5.0.1'
-  s.add_runtime_dependency 'spree_i18n', '~> 3.1.0.beta'
+  s.add_runtime_dependency 'globalize', '>= 5.0.1'
+  s.add_runtime_dependency 'spree_i18n', '>= 3.1.0'
 
   s.add_development_dependency 'byebug'
   s.add_development_dependency 'capybara', '~> 2.4.4'
-  s.add_development_dependency 'coffee-rails', '~> 4.0.0'
+  s.add_development_dependency 'coffee-rails', '~> 4.2.0'
   s.add_development_dependency 'database_cleaner', '~> 1.3.0'
   s.add_development_dependency 'factory_girl', '~> 4.5'
   s.add_development_dependency 'ffaker', '>= 1.25.0'
@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'pry-rails', '>= 0.3.0'
   s.add_development_dependency 'rubocop', '>= 0.24.1'
   s.add_development_dependency 'rspec-rails', '~> 3.1.0'
-  s.add_development_dependency 'sass-rails', '~> 4.0.0'
+  s.add_development_dependency 'sass-rails', '~> 5.0.0'
   s.add_development_dependency 'sqlite3', '~> 1.3.10'
   s.add_development_dependency 'selenium-webdriver', '>= 2.41'
   s.add_development_dependency 'simplecov', '~> 0.9.0'
