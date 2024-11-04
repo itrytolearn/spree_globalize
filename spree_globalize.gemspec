@@ -18,13 +18,9 @@ Gem::Specification.new do |s|
 
   s.files        = `git ls-files`.split("\n")
   s.test_files   = `git ls-files -- spec/*`.split("\n")
-  s.require_path = 'lib'
-  s.requirements << 'none'
-
-  s.has_rdoc = false
 
   s.add_runtime_dependency 'friendly_id-globalize'
-  s.add_runtime_dependency 'globalize', '~> 5.0.1'
+  s.add_runtime_dependency 'globalize', '~> 5.2.0'
   s.add_runtime_dependency 'spree_i18n', '>= 3.1.0'
 
   s.add_development_dependency 'byebug'
